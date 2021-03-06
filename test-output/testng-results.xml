@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-08T17:06:13Z" name="Suite" finished-at="2021-02-08T17:08:03Z" duration-ms="109824">
+    <groups>
+    </groups>
+    <test started-at="2021-02-08T17:06:13Z" name="Test" finished-at="2021-02-08T17:06:56Z" duration-ms="43143">
+      <class name="Practice.E2EProject.Home">
+        <test-method signature="baseNavigationPage(java.lang.String, java.lang.String)[pri:0, instance:Practice.E2EProject.Home@51650883]" started-at="2021-02-08T19:06:13Z" name="baseNavigationPage" data-provider="getData" finished-at="2021-02-08T19:06:56Z" duration-ms="42912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mahesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Practice.E2EProject.Home@51650883]" started-at="2021-02-08T19:06:56Z" name="teardown" finished-at="2021-02-08T19:06:56Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Practice.E2EProject.Home -->
+    </test> <!-- Test -->
+    <test started-at="2021-02-08T17:06:57Z" name="Validating Title" finished-at="2021-02-08T17:07:28Z" duration-ms="30802">
+      <class name="Practice.E2EProject.ValidatingTitle">
+        <test-method is-config="true" signature="initiliaze()[pri:0, instance:Practice.E2EProject.ValidatingTitle@3113a37]" started-at="2021-02-08T19:06:57Z" name="initiliaze" finished-at="2021-02-08T19:07:28Z" duration-ms="30283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiliaze -->
+        <test-method signature="baseNavigationPage()[pri:0, instance:Practice.E2EProject.ValidatingTitle@3113a37]" started-at="2021-02-08T19:07:28Z" name="baseNavigationPage" finished-at="2021-02-08T19:07:28Z" duration-ms="117" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES425] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES425] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at Practice.E2EProject.ValidatingTitle.baseNavigationPage(ValidatingTitle.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Practice.E2EProject.ValidatingTitle@3113a37]" started-at="2021-02-08T19:07:28Z" name="teardown" finished-at="2021-02-08T19:07:28Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Practice.E2EProject.ValidatingTitle -->
+    </test> <!-- Validating Title -->
+    <test started-at="2021-02-08T17:07:28Z" name="Checking Register Button" finished-at="2021-02-08T17:08:03Z" duration-ms="34681">
+      <class name="Practice.E2EProject.ValidatingRegisterButton">
+        <test-method is-config="true" signature="initiliaze()[pri:0, instance:Practice.E2EProject.ValidatingRegisterButton@54ec8cc9]" started-at="2021-02-08T19:07:28Z" name="initiliaze" finished-at="2021-02-08T19:08:03Z" duration-ms="34308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiliaze -->
+        <test-method signature="baseNavigationPage()[pri:0, instance:Practice.E2EProject.ValidatingRegisterButton@54ec8cc9]" started-at="2021-02-08T19:08:03Z" name="baseNavigationPage" finished-at="2021-02-08T19:08:03Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Practice.E2EProject.ValidatingRegisterButton@54ec8cc9]" started-at="2021-02-08T19:08:03Z" name="teardown" finished-at="2021-02-08T19:08:03Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Practice.E2EProject.ValidatingRegisterButton -->
+    </test> <!-- Checking Register Button -->
+  </suite> <!-- Suite -->
+</testng-results>

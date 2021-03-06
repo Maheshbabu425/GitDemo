@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Practice.E2EProject.Listeners"/>
+  </listeners>
+  <test parallel="none" name="Validating Title(failed)" preserve-order="true">
+    <classes>
+      <class name="Practice.E2EProject.Home">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Practice.E2EProject.Home -->
+      <class name="Practice.E2EProject.ValidatingRegisterButton">
+        <methods>
+          <include name="teardown"/>
+          <include name="initiliaze"/>
+        </methods>
+      </class> <!-- Practice.E2EProject.ValidatingRegisterButton -->
+      <class name="Practice.E2EProject.ValidatingTitle">
+        <methods>
+          <include name="baseNavigationPage"/>
+          <include name="teardown"/>
+          <include name="initiliaze"/>
+        </methods>
+      </class> <!-- Practice.E2EProject.ValidatingTitle -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->
